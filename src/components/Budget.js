@@ -17,7 +17,7 @@ const Budget = () => {
                 payload: newBudget
             });
         } else if (newBudget > upperLimitValue) {
-            alert("The value cannot exceed remaining funds" + {currency} + remaining);
+            alert("The value cannot exceed remaining funds £" + remaining);
         }
     };
 
