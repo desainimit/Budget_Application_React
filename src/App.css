@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+
+.custom-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><polyline points='6,9 10,13 14,9' stroke='%23ffffff' stroke-width='1.5' fill='none' /></svg>") no-repeat;
+  background-position: right .55rem center;
+  padding-right: 1.5rem;
+  /* other styles as needed */
+}
